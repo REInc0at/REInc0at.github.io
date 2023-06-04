@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta Tags -->
+		<meta charset="UTF-8">
+		<meta name="description" content="Web Development Final Project - Charis Photography">
+		<meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+		<meta name="author" content="Marielle D. Lapeña">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- CSS Links -->
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+
+		<title>Charis - Contact Page</title>
+	</head>
+
+	<!-- Loader -->
+	<body onload="preloader()">
+		<div id="preloader">
+			<div class="lds-ripple">
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+
+		<div class="container" id="wrapper">
+			<div class="row">
+
+				<!-- Side bar -->
+				<div class="col-md-3" id="sidebar">
+					<div class="logo">
+						<img src="assets/img/Logo2.png" alt="logo">
+					</div>
+
+					<ul class="nav flex-column">
+						<li class="nav-item">						 
+							<a class="nav-link" href="index2.html"><i class="fal fa-home-alt"></i> Dashboard</a>
+						</li>
+						<li class="nav-item">						 
+							<a class="nav-link" href="portfolio.html"><i class="fal fa-tasks"></i> Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="contact.html"><i class="fal fa-address-card"></i> Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="fa fa-sign-out"></i> Log-out</a>
+						</li>
+					</ul>
+
+					<i class="far fa-ellipsis-v"></i>
+					<div class="copyright">
+						<p>&copy; 2023 | Charis Photography</p>
+					</div>
+				</div>
+
+				<!-- Main Area -->
+				<div class="col-md-9">
+					<div id="main-area">
+
+						<div class="content-section contact"> <!--Content Section Start-->						
+							<div class="row">
+								<div class="col-md-5 order-md-2">
+									<div class="card" style="width: 100%;">
+										<div class="card-body">
+											<h5 class="card-title">For Photography Services:</h5>
+											<img src="assets/img/Logo1.png" alt="Charis Photography">
+											<p class="card-text"><i class="fal fa-envelope"></i> <a href="8212002@ntc.edu.ph" style="color:#fff;">8212002@ntc.edu.ph</a></p>
+											<p class="card-text">
+												<a href="https://www.facebook.com/marielle.lapena/" style="color: white;">
+													<i class="fab fa-facebook"></i> Follow Facebook Page
+												</a>
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<!-- Form Area -->
+								<div class="col-lg-7 col-md-7 order-lg-1">
+									<div class="card" style="width: 100%;">
+										<div class="section-description">
+											<h2 class="display-4"><i class="fal fa-pencil"></i> Get in Touch</h2>
+										</div>
+
+										<form>
+										<div class="form-group">
+											<label>Your Name</label>
+											<input type="text" name="name" id="name" class="form-control">
+										</div>
+										<div class="form-group">
+											<label>Email address</label>
+											<input type="email" name="email" id="email" class="form-control">
+											<small class="form-text ">We'll never share your email with anyone else.</small>
+										</div>
+										<div class="form-group">
+											<label>Message</label>
+											<textarea type="message" name="message" id="message" class="form-control"></textarea>
+										</div>									  
+										<button type="submit" class="btn btn-primary btn-sm" id="submit" onclick="contactValidate()">Submit</button>
+										</form>
+									</div>
+								</div>
+							</div>						
+						</div> <!-- Content Section End -->
+
+						<!-- Footer -->
+						<div class="footer">
+							<div class="row">													
+								<div class="col-lg-4 col-md-12 order-lg-2"></div>
+								<div class="col-lg-8 col-md-12 order-lg-1 social-links">
+									<div class="social-links">
+										<a href="https://www.facebook.com/NTCManila">
+											<i class="fab fa-facebook"></i> Facebook
+										</a>
+									</div>								
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+
+		<!-- JS Script Files -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="assets/js/custom-function.js"></script>
+	</body>
+</html>

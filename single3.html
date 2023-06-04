@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta Tags -->
+		<meta charset="UTF-8">
+		<meta name="description" content="Web Development Final Project - Charis Photography">
+		<meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+		<meta name="author" content="Marielle D. Lapeña">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- CSS Links -->
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+
+		<title>Charis - Single3 Photo Page</title>
+	</head>
+
+	<!-- Loader -->
+	<body onload="preloader()">
+		<div id="preloader">
+			<div class="lds-ripple">
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		
+		<div class="container" id="wrapper">
+			<div class="row">
+
+				<!-- Side bar -->
+				<div class="col-md-3" id="sidebar">
+					<div class="logo">
+						<img src="assets/img/Logo2.png" alt="logo">
+					</div>
+
+					<ul class="nav flex-column">
+						<li class="nav-item">						 
+							<a class="nav-link" href="index2.html"><i class="fal fa-home-alt"></i> Dashboard</a>
+						</li>
+						<li class="nav-item">						 
+							<a class="nav-link" href="portfolio.html"><i class="fal fa-tasks"></i> Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html"><i class="fal fa-address-card"></i> Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="fa fa-sign-out"></i> Log-out</a>
+						</li>
+					</ul>
+
+					<i class="far fa-ellipsis-v"></i>
+					<div class="copyright">
+						<p>&copy; 2023 | Charis Photography</p>
+					</div>
+				</div>
+
+				<!-- Main Area -->
+				<div class="col-md-9">
+					<div id="main-area">
+
+						<div class="content-section single"> <!--Content Section Start-->						
+							<div class="row">
+								<div class="col-md-7 order-md-1">
+									<div class="card" style="width: 98%;">
+										<img class="card-img-top" src="assets/img/bg3.jpg" alt="Card image cap">
+									</div>
+								</div>
+								<!--<div class="col-md-12 order-md-3">
+									<div class="section-description">
+										<h2 class="display-4"><i class="fal fa-file-alt"></i> Here Comes Hope</h2>
+										<p>
+											A mesmerizing picture of a sky that shows the sun being surrounded by clouds. It's like hope after a bad event in a person's life. Surprising, but a welcome one.
+										</p>
+									</div>
+								</div>-->
+								<div class="col-md-5 order-md-2">
+									<div class="card" style="width: 100%;">
+										<div class="card-body">
+											<h5 class="card-title">Related Images</h5>
+											<div class="related-video">
+												<img src="assets/img/city1.jpg" alt="" width="80px">
+												<p class="card-text text-truncate d-md-none d-lg-block">
+													Darkness continues to color the colorful sky from the day.
+												</p>
+												<span class="vid-date d-md-none d-lg-block"><i class="fal fa-calendar-alt"></i> June 1, 2023</span>
+											</div>
+											<div class="related-video">
+												<img src="assets/img/city3 - Copy.jpg" alt="" width="80px">
+												<p class="card-text text-truncate d-md-none d-lg-block">
+													Darkness continues to color the colorful sky from the day. 
+												</p>
+												<span class="vid-date d-md-none d-lg-block"><i class="fal fa-calendar-alt"></i> June 1, 2023</span>
+											</div>
+											<div class="related-video">
+												<img class="d-lg-block d-md-none" src="assets/img/city4 - Copy.jpg" alt="" width="80px">
+												<p class="card-text text-truncate d-lg-block d-md-none">
+													Darkness continues to color the colorful sky from the day. 
+												</p>
+												<span class="vid-date d-lg-block d-md-none"><i class="fal fa-calendar-alt"></i> June 1, 2023</span>
+											</div>
+										</div>
+									</div>
+									<div class="card" style="width: 100%;">
+										<div class="card-body">
+											
+											<div class="section-description">
+												<h2 class="display-4"><i class="fal fa-file-alt"></i> Beauty of Darkness</h2>
+												<p>
+													The moon illuminates the darkness that surrounds the heart of the people. Like a messiah to the people who need one, it lits up the dying passion of anyone who will see it.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>						
+							</div>					
+						</div> <!-- Content Section End -->
+
+						<!-- Footer -->
+						<div class="footer">
+							<div class="row">													
+								<div class="col-lg-4 col-md-12 order-lg-2"></div>
+								<div class="col-lg-8 col-md-12 order-lg-1 social-links">
+									<div class="social-links">
+										<a href="https://www.facebook.com/NTCManila">
+											<i class="fab fa-facebook"></i> Facebook
+										</a>
+									</div>								
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+
+		<!-- JS Script Files -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="assets/js/custom-function.js"></script>
+	</body>
+</html>

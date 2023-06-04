@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta Tags -->
+		<meta charset="UTF-8">
+		<meta name="description" content="Web Development Final Project - Charis Photography">
+		<meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+		<meta name="author" content="Marielle D. Lapeña">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- CSS Links -->
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+
+		<title>Charis - All Works Portfolio Page</title>
+	</head>
+
+	<!-- Loader -->
+	<body onload="preloader()">
+		<div id="preloader">
+			<div class="lds-ripple">
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+
+		<div class="container" id="wrapper">
+			<div class="row">
+
+				<!-- Side bar -->
+				<div class="col-md-3" id="sidebar">
+					<div class="logo">
+						<img src="assets/img/Logo2.png" alt="logo">
+					</div>
+
+					<ul class="nav flex-column">
+						<li class="nav-item">						 
+							<a class="nav-link" href="index2.html"><i class="fal fa-home-alt"></i> Dashboard</a>
+						</li>
+						<li class="nav-item">						 
+							<a class="nav-link" href="portfolio.html"><i class="fal fa-tasks"></i> Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html"><i class="fal fa-address-card"></i> Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="fa fa-sign-out"></i> Log-out</a>
+						</li>
+					</ul>
+
+					<i class="far fa-ellipsis-v"></i>
+					<div class="copyright">
+						<p>&copy; 2023 | Charis Photography</p>
+					</div>
+				</div>
+
+				<!-- Main Area -->
+				<div class="col-md-9">
+					<div id="main-area">
+
+						<div class="header-section category row"> <!--Header Section Start-->
+							<ul class="nav justify-content-center col-lg-9 col-md-12 order-lg-2">
+								<li class="nav-item">						 
+									<a class="nav-link active" href="city-category.html">Cityscape</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="food-category.html">Food</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="people-category.html">People</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Nature
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="sky-category.html">Sky</a>
+										<a class="dropdown-item" href="greenery-category.html">Greenery</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="nature-category.html">More</a>
+									</div>
+								</li>
+							</ul>
+							<div class="category-heading col-lg-3 col-md-12 order-lg-1">
+								<h2 class="display-4">All Works <i class="fal fa-tasks small"></i></h2>
+							</div>
+						</div> <!--Header Section End -->
+
+						<div class="content-section"> <!-- Content Section Start -->												
+							<div class="row">
+
+								<!-- Images -->
+								<div class="col-md-4">
+									<div class="card" style="width: 85%;">
+										<img class="card-img-top" src="assets/img/por11.jpg" alt="Card image cap">
+										<div class="card-body">
+											<p class="card-text text-truncate">Sky and the Smile.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="card" style="width: 85%;">
+										<img class="card-img-top" src="assets/img/por2.jpg" alt="Card image cap">
+										<div class="card-body">
+											<p class="card-text text-truncate">An art.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="card" style="width: 85%;">
+										<img class="card-img-top" src="assets/img/por3.jpg" alt="Card image cap">
+										<div class="card-body">
+											<p class="card-text text-truncate">A night escapade.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="card" style="width: 85%;">
+										<img class="card-img-top" src="assets/img/por4.jpg" alt="Card image cap">
+										<div class="card-body">
+											<p class="card-text text-truncate">Cyber geek feels.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="card" style="width: 85%;">
+										<img class="card-img-top" src="assets/img/por9.jpg" alt="Card image cap">
+										<div class="card-body">
+											<p class="card-text text-truncate">Colors in the grey world.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="card" style="width: 85%;">
+										<img class="card-img-top" src="assets/img/por12.jpg" alt="Card image cap">
+										<div class="card-body">
+											<p class="card-text text-truncate">Black Day.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- Content Section End -->
+
+						<!-- Footer -->
+						<div class="footer">
+							<div class="row">													
+								<div class="col-lg-4 col-md-12 order-lg-2">
+									<div class="pagination">
+										<ul>
+											<li><a href="">Prev</a></li>
+											<li><a class="active" href="">1</a></li>
+											<li><a href="all-works2.html">2</a></li>
+											<li><a href="all-works2.html">Next</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-lg-8 col-md-12 order-lg-1 social-links">
+									<div class="social-links">
+										<a href="https://www.facebook.com/NTCManila">
+											<i class="fab fa-facebook"></i> Facebook
+										</a>
+									</div>								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- JS Script Files -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="assets/js/custom-function.js"></script>
+	</body>
+</html>
